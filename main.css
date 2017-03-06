@@ -1,0 +1,46 @@
+body {
+        font-family: 'Arvo', serif;
+}
+
+#logo-container {
+        margin: 30px;
+}
+
+#logo {
+        width: 200px;
+        height: 100px;
+        display: block;
+        float: center;
+}
+
+#hline {
+        width: 275px;
+        height: 100px;
+        display: block;
+        float: center;
+}
+
+
+#mission-text{
+        margin: 0px 50px;
+        text-align: center;
+}
+
+#bottom-text{
+        color: #000000;
+        margin: 15px;
+        text-align: center;
+        font-size: 10px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
